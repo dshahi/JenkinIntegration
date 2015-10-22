@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="VINU" name="com.appium.facebook.appiumtest.AppTest" tests="1" failures="0" timestamp="22 Oct 2015 03:45:59 GMT" time="15.703" errors="0">
+  <testcase name="LongPressTest" time="1.14" classname="com.appium.facebook.appiumtest.AppTest"/>
+</testsuite>

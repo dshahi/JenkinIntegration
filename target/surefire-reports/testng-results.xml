@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="15703" started-at="2015-10-21T20:45:43Z" finished-at="2015-10-21T20:45:59Z">
+    <groups>
+    </groups>
+    <test name="facebook" duration-ms="15703" started-at="2015-10-21T20:45:43Z" finished-at="2015-10-21T20:45:59Z">
+      <class name="com.appium.facebook.appiumtest.AppTest">
+        <test-method status="PASS" signature="appiumSetup()" name="appiumSetup" is-config="true" duration-ms="13567" started-at="2015-10-21T20:45:43Z" finished-at="2015-10-21T20:45:57Z">
+        </test-method>
+        <test-method status="PASS" signature="LongPressTest()" name="LongPressTest" duration-ms="1140" started-at="2015-10-21T20:45:57Z" finished-at="2015-10-21T20:45:58Z">
+        </test-method>
+        <test-method status="PASS" signature="closeDriver()" name="closeDriver" is-config="true" duration-ms="987" started-at="2015-10-21T20:45:58Z" finished-at="2015-10-21T20:45:59Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

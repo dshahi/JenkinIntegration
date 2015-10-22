@@ -1,80 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="130686" started-at="2015-10-21T21:51:51Z" finished-at="2015-10-21T21:54:02Z">
+  <suite name="Suite1" duration-ms="16827" started-at="2015-10-22T03:44:40Z" finished-at="2015-10-22T03:44:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="130686" started-at="2015-10-21T21:51:51Z" finished-at="2015-10-21T21:54:02Z">
-      <class name="com.appium.facebook.appiumtest.LoginFaceBook">
-        <test-method status="FAIL" signature="appiumSetup()[pri:0, instance:com.appium.facebook.appiumtest.LoginFaceBook@1a407d53]" name="appiumSetup" is-config="true" duration-ms="0" started-at="2015-10-21T14:51:51Z" finished-at="2015-10-21T14:51:51Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[A new session could not be created. (Original error: com.whatsapp/.Main never started. Current: com.whatsapp/.EULA) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 129.88 seconds
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'VINU', ip: '10.0.0.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: io.appium.java_client.android.AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: com.whatsapp/.Main never started. Current: com.whatsapp/.EULA) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 129.88 seconds
-Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
-System info: host: 'VINU', ip: '10.0.0.16', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_31'
-Driver info: io.appium.java_client.android.AndroidDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
-	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
-	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
-	at com.appium.facebook.appiumtest.LoginFaceBook.appiumSetup(LoginFaceBook.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test name="facebook" duration-ms="16827" started-at="2015-10-22T03:44:40Z" finished-at="2015-10-22T03:44:56Z">
+      <class name="com.appium.facebook.appiumtest.AppTest">
+        <test-method status="PASS" signature="appiumSetup()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="appiumSetup" is-config="true" duration-ms="15022" started-at="2015-10-21T20:44:40Z" finished-at="2015-10-21T20:44:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appiumSetup -->
-        <test-method status="SKIP" signature="facebooklogin()[pri:0, instance:com.appium.facebook.appiumtest.LoginFaceBook@1a407d53]" name="facebooklogin" duration-ms="1" started-at="2015-10-21T14:54:02Z" finished-at="2015-10-21T14:54:02Z">
+        <test-method status="PASS" signature="LongPressTest()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="LongPressTest" duration-ms="1038" started-at="2015-10-21T20:44:55Z" finished-at="2015-10-21T20:44:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebooklogin -->
-        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:com.appium.facebook.appiumtest.LoginFaceBook@1a407d53]" name="closeDriver" is-config="true" duration-ms="0" started-at="2015-10-21T14:54:02Z" finished-at="2015-10-21T14:54:02Z">
+        </test-method> <!-- LongPressTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="closeDriver" is-config="true" duration-ms="750" started-at="2015-10-21T20:44:56Z" finished-at="2015-10-21T20:44:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.appium.facebook.appiumtest.LoginFaceBook -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.appium.facebook.appiumtest.AppTest -->
+    </test> <!-- facebook -->
+  </suite> <!-- Suite1 -->
 </testng-results>
