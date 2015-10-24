@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.appium.facebook.appiumtest.LoginFaceBook">
+      <class name="com.appium.facebook.appiumtest.Facebook">
         <methods>
-          <include name="facebooklogin"/>
+          <include name="closeDriver"/>
           <include name="appiumSetup"/>
+          <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.appium.facebook.appiumtest.LoginFaceBook -->
+      </class> <!-- com.appium.facebook.appiumtest.Facebook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

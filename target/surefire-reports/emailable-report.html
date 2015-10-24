@@ -29,15 +29,91 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">facebook</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">15.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">facebook</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">6.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
-<tr><th colspan="4">facebook &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">com.appium.facebook.appiumtest.AppTest<td><a href="#m1"><b>LongPressTest</b>  </a></td><td class="numi">1</td><td class="numi">1140</td></tr>
+<tr><th colspan="4">facebook &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.appium.facebook.appiumtest.AppTest<td><a href="#m1"><b>appiumSetup</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">facebook &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.appium.facebook.appiumtest.AppTest<td><a href="#m2"><b>closeDriver</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
+<tr><th colspan="4">facebook &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.appium.facebook.appiumtest.AppTest<td><a href="#m3"><b>LongPressTest</b>  </a></td><td class="numi">1</td><td class="numi">0</td></tr>
 </table>
 <h1>facebook</h1>
-<a id="m1"></a><h2>com.appium.facebook.appiumtest.AppTest:LongPressTest</h2>
+<a id="m1"></a><h2>com.appium.facebook.appiumtest.AppTest:appiumSetup</h2>
+<div style="padding-left:3em">
+<p>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;VINU&apos;, ip: &apos;10.0.0.16&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: AndroidDriver</p>
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+<br/>at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+<br/>at com.appium.facebook.appiumtest.AppTest.appiumSetup(AppTest.java:47)
+<br/>35 lines not shown
+<p>Caused by Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect</p>
+org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:215)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+<br/>at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+<br/>at com.appium.facebook.appiumtest.AppTest.appiumSetup(AppTest.java:47)
+<br/>35 lines not shown
+<p>Caused by Connection refused: connect</p>
+java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+<br/>at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+<br/>at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+<br/>at java.net.PlainSocketImpl.connect(Unknown Source)
+<br/>at java.net.SocksSocketImpl.connect(Unknown Source)
+<br/>at java.net.Socket.connect(Unknown Source)
+<br/>at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+<br/>at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+<br/>at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+<br/>at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+<br/>at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+<br/>at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+<br/>at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+<br/>at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+<br/>at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+<br/>at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:215)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+<br/>at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+<br/>at com.appium.facebook.appiumtest.AppTest.appiumSetup(AppTest.java:47)
+<br/>35 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.appium.facebook.appiumtest.AppTest:closeDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.appium.facebook.appiumtest.AppTest:LongPressTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

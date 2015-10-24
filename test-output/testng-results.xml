@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="16827" started-at="2015-10-22T03:44:40Z" finished-at="2015-10-22T03:44:56Z">
+  <suite name="Suite1" duration-ms="40596" started-at="2015-10-23T06:53:02Z" finished-at="2015-10-23T06:53:43Z">
     <groups>
     </groups>
-    <test name="facebook" duration-ms="16827" started-at="2015-10-22T03:44:40Z" finished-at="2015-10-22T03:44:56Z">
-      <class name="com.appium.facebook.appiumtest.AppTest">
-        <test-method status="PASS" signature="appiumSetup()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="appiumSetup" is-config="true" duration-ms="15022" started-at="2015-10-21T20:44:40Z" finished-at="2015-10-21T20:44:55Z">
+    <test name="facebook" duration-ms="40596" started-at="2015-10-23T06:53:02Z" finished-at="2015-10-23T06:53:43Z">
+      <class name="com.appium.facebook.appiumtest.Facebook">
+        <test-method status="PASS" signature="appiumSetup()[pri:0, instance:com.appium.facebook.appiumtest.Facebook@1a407d53]" name="appiumSetup" is-config="true" duration-ms="16012" started-at="2015-10-22T23:53:02Z" finished-at="2015-10-22T23:53:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appiumSetup -->
-        <test-method status="PASS" signature="LongPressTest()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="LongPressTest" duration-ms="1038" started-at="2015-10-21T20:44:55Z" finished-at="2015-10-21T20:44:56Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.appium.facebook.appiumtest.Facebook@1a407d53]" name="LoginTest" duration-ms="23366" started-at="2015-10-22T23:53:18Z" finished-at="2015-10-22T23:53:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LongPressTest -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.appium.facebook.appiumtest.AppTest@1a407d53]" name="closeDriver" is-config="true" duration-ms="750" started-at="2015-10-21T20:44:56Z" finished-at="2015-10-21T20:44:56Z">
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.appium.facebook.appiumtest.Facebook@1a407d53]" name="closeDriver" is-config="true" duration-ms="1203" started-at="2015-10-22T23:53:41Z" finished-at="2015-10-22T23:53:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- com.appium.facebook.appiumtest.AppTest -->
+      </class> <!-- com.appium.facebook.appiumtest.Facebook -->
     </test> <!-- facebook -->
   </suite> <!-- Suite1 -->
 </testng-results>

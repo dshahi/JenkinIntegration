@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="facebook(failed)">
+    <classes>
+      <class name="com.appium.facebook.appiumtest.AppTest">
+        <methods>
+          <include name="LongPressTest"/>
+          <include name="appiumSetup"/>
+        </methods>
+      </class> <!-- com.appium.facebook.appiumtest.AppTest -->
+    </classes>
+  </test> <!-- facebook(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

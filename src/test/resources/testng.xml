@@ -3,7 +3,7 @@
 <suite name="Suite1">
   <test name="facebook" >
     <classes>
-       <class name="com.appium.facebook.appiumtest.AppTest" />
+       <class name="com.appium.facebook.appiumtest.Facebook" />
     </classes>
   </test>
  </suite>
